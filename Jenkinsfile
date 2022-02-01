@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("aytemur44/argolab")
+       app = docker.build("mkus41/argolab")
     }
 
     stage('Test image') {
